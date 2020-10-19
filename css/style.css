@@ -1,0 +1,273 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: work sans;
+	font-size: 14px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: montserrat;
+	
+}
+a, a: hover{
+	text-decoration: none;
+}
+/*************** main code start here********************/
+
+
+/*header section start here*/
+.header-section{
+	width: 100%;
+	background-color: #fcdb00;
+	padding: 20px 0px;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+}
+.header-section .navbar-nav .nav-link {
+    margin: 0px 0px 0px 15px;
+}
+.header-section .banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.header-section .banner .text-inner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.header-section .banner .text-inner h1{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #000;
+}
+.header-section .banner .text-inner h5 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #313841;
+}
+
+.header-section .banner .text-inner p{
+	font-size: 18px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+.header-section .banner .text-inner .img-inner{
+	margin-top: 30px;
+}
+
+/*header section end here*/
+
+
+
+  /*feature section start here*/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature-section .title{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.feature-section .title h1{
+	font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #000;
+}
+.feature-section .title p{
+	font-size: 18px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.feature-section .feature-inner{
+	width: 100%;
+}
+.feature-section .feature-inner .media{
+	padding: 30px 0px;
+}
+.feature-section .feature-inner .media .fa{
+	font-size: 50px;
+	color: #000;
+}
+.feature-section .feature-inner .media .media-body{
+	padding: 0px 10px 0px;
+}
+.feature-section .feature-inner .media .media-body h5{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.feature-section .feature-inner .media .media-body p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #777;
+}
+/*feature section end here*/
+
+/*footer-section code start*/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #010101;
+}
+.footer-section .title{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.footer-section .title h1{
+	font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fcdb00;
+}
+.footer-section .title p{
+	font-size: 18px;
+    margin-bottom: 15px;
+    color: #717171;
+}
+.footer-section .form-inline{
+	width: 100%; 
+}
+.footer-section .form-inline .form-group {
+    width: 80%;
+}
+.footer-section .form-inline .form-group .form-control{
+	width: 100% !important;
+}
+.footer-section .form-inline .btn-primary {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fcdb00;
+    color: #000;
+    border: 2px solid #fcdb00;
+}
+.footer-section .form-inline .btn-primary:hover, .footer-section .form-inline .btn-primary:focus{
+	background-color: transparent;
+    color: #fff;
+     border: 2px solid #fcdb00;
+}
+.footer-section .social-icons{
+	width: 100%;
+}
+.footer-section .social-icons li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer-section .social-icons li a .fa{
+	color: #fcdb00;
+	font-size: 30px;
+
+}
+
+.footer-section .address p {
+    color: #fff;
+}
+.footer-section .contacts{
+	width: 100%;
+}
+.footer-section .contacts li{
+	list-style: none;
+}
+.footer-section .contacts li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*footer-section code end*/
+
+
+
+
+
+/* Media Queries code goes here*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+	}
+	
+	.header-section .banner .text-inner h1 {
+    font-size: 28px;
+ 	}
+    .header-section .banner .text-inner h5 {
+    font-size: 22px;
+	}
+	.feature-section .title h1{
+		 font-size: 28px;
+	}
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+   .header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+	}
+	
+	.header-section .banner .text-inner h1 {
+    font-size: 32px;
+ 	}
+    .header-section .banner .text-inner h5 {
+    font-size: 26px;
+	}
+	.feature-section .title h1{
+		    font-size: 28px;
+	}
+ 
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 	.header-section .banner .text-inner h1 {
+    font-size: 34px;
+    line-height: 44px;
+	}
+	.header-section .banner .text-inner h5 {
+    font-size: 26px;
+	}
+ 
+  
+}
